@@ -3,26 +3,11 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>BODIK API</title>
-    <script type="text/javascript">
-        let url = "https://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=a073095b15b43232&large_area=Z011&format=json";
-        fetch(url)
-        // .then(response => response.json())
-        .then(data => {
-            let output = document.getElementById('output');
-            output.innerHTML = JSON.stringify(data);
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            let output = document.getElementById('output');
-            output.innerHTML = "An error occurred while fetching the data.";
-        });
-    </script>
+    <title>gourmet API</title>
 </head>
 
 <body>
-    <h2>BODIK API program #1</h2>
-    <pre id="output"></pre>
+    <h2>gourmet-APP</h2>
 </body>
 
 </html>
